@@ -1,0 +1,377 @@
+
+@media screen  and (max-width:479px){
+    .nav .logo{
+        width:180px;
+    }
+    .number{
+        display: none;
+    }
+
+    .banner-parent{
+        padding-top: 30px;
+    }
+.banner{
+    display:inline-flex;
+    flex-direction: column;   
+    width:90%;
+}
+
+.b2content{
+    margin-top: 30px;
+}
+.firstheading{
+    font-size: 13px;
+}
+
+.secondheading
+{
+    font-size:30px;
+}
+.nav{
+    width:90%;
+    padding-top: 15px;
+}
+
+.banner-right{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.boxtagline1{
+    margin: auto;
+}
+.box1,.box2,.box3{
+    width: 90%;
+    margin-bottom: 13px;
+    height: 379px;
+   
+}
+.box1-outer h4,.box2-outer h4,.box3-outer h4{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.box1-outer-para1,.box2-outer-para2,.box3-outer-para3{
+    padding-top: 3px;
+    font-size:18px;
+}
+
+.box1-inner h4,.box2-inner h4,.box3-inner h4
+{
+margin-top: 26px;
+padding-top:0px;
+margin-bottom:0px;
+}
+.box1-inner ul,.box2-inner ul,.box3-inner ul{
+margin-top: 10px;
+}
+.testinomials{
+display: flex;
+flex-direction: column;
+padding:30px;
+}
+.video-container{
+    width: 100%;
+    height: 300px;
+}
+.testinomials button{
+    width:10px;
+    height: 13px;
+    border-radius: 100%;
+}
+.right-content
+{
+    margin-left: 0px;
+}
+.right-content .para1{
+font-size: 30px;
+text-align: center;
+}
+.right-content .para2{
+    text-align: center;
+    font-size: 20px;
+}
+.client-right{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.client{ padding-top: 10px;}
+/* .client-heading{
+    
+} */
+.client-image{
+    width:100%;
+
+   margin-left: 0%;
+   padding-left: 0%;
+ 
+
+}
+.closure{
+    padding:50px 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastdabbas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.lastdabba1,.lastdabba2
+{
+ width:70%;
+}
+.sub1 h3{
+    margin-top:0px;
+    padding-top: 0px;
+    margin-bottom: 8px;
+}
+.sub1 p{
+    margin-top: 4px;
+}
+
+.sub2 h3{
+   
+    padding:8px 0px;
+    margin: 0px;
+}
+
+.lastdabba1 .sub2 p{
+    margin-top: 4px;
+}
+.lastdabba2 .sub2 p{
+font-size:17px;
+width: 70vw;
+;
+margin-top: 0px;
+color: grey;
+
+}
+}
+@media  (max-width:767px) and (min-width:479px)  {
+    .number
+    {
+    display: none;
+    }
+
+.banner{
+    display:flex;
+    flex-direction:column;
+}
+.banner-parent{
+    margin-top: 5px;
+    padding-top: 20px;
+}
+.secondheading{
+    font-size: 29px;
+    font-weight: normal;
+}
+.logo {
+    padding-top: 25px;
+    width: 167px;
+}
+.b2content{margin-top: 36px;}
+.banner-right{
+    position: static;
+    margin-top: 25px;}
+
+    .video-container{
+        width: 100%;
+        height: 310px;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .box1, .box2, .box3 {
+        width: 40%;
+        margin: 5px 5px;
+        overflow: hidden;}
+
+        .box1-outer h4,.box2-outer h4,.box3-outer h4{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+        .box1-outer-para1,.box2-outer-para2,.box3-outer-para3{
+            padding-top: 3px;
+            font-size:18px;
+        }
+        
+        .box1-inner h4,.box2-inner h4
+        {
+           padding-left:16%;
+        margin-top: 50px;
+        padding-top:0px;
+        margin-bottom:0px;
+        padding:0px auto;
+        }
+        .box2-inner h4{padding-left: 10%;}
+        .box3-inner h4{
+            padding-top: 0%;
+            margin-top: 50px;
+        }
+        .box1-inner h4 span,.box2-inner h4 span,.box3-inner h4 span{
+            display: none;
+            
+        }
+        .box1-inner ul,.box2-inner ul,.box3-inner ul{
+        margin-top: 10px;
+        padding-left: 25px;
+        }
+        .box3-inner ul{
+    margin-top: 10px;
+    padding-top: 0%;
+        }
+        .testinomials{display: flex;
+        flex-direction:column;
+        padding: 30px;
+        }
+        .but1{
+   
+
+            margin-left:45%;
+        
+        }  
+        .right-content{
+            margin-left: 0%;
+        letter-spacing: 0;}
+        .right-content .para1{
+font-size: 23px;
+text-align: center;
+        }
+        .right-content .para2{
+            font-size: 18px;
+            text-align: justify;
+                    }
+
+                    .right-content .para3,.para4{
+                        text-align: center;
+                    }
+.client-heading{
+    text-align: center;
+    font-size: medium;} 
+.client-right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client-image
+{margin: 0px 30px;}
+
+.client-buttons-section{
+    margin-top:20px ;
+}
+.lastdabba1{
+margin-right: 20px;
+}
+
+}
+
+@media (min-width:767px) and (max-width:991px){
+.banner-right{
+margin-left: 10px;
+
+position: 0;
+}
+.banner-parent{
+    padding-top: 40px;
+}
+.b1content, .b2content{
+    width:209px;
+}
+.b2content{
+    top:0;
+    margin-top:30px;
+}
+.video-container {
+    height: 350px;
+}
+
+h4{
+    margin-top: 0px;
+  
+    padding-top: 0;
+
+}
+.box1-outer-para1,.box2-outer-para2,.box3-outer-para3{
+    padding-top:3px;
+    font-size:18px;
+}
+.box1-inner h4,.box2-inner h4
+{
+   padding-left:16%;
+margin-top: 50px;
+padding-top:0px;
+margin-bottom:0px;
+padding:0px auto;
+}
+.box2-inner h4{padding-left: 10%;}
+.box3-inner h4{
+    padding-top: 0%;
+    margin-top: 50px;
+}
+.box1-inner h4 span,.box2-inner h4 span,.box3-inner h4 span{
+    display: none;
+    
+}
+.box1-inner ul,.box2-inner ul,.box3-inner ul{
+margin-top: 10px;
+padding-left: 25px;
+}
+.box3-inner ul{
+margin-top: 10px;
+padding-top: 0%;
+}
+
+.testinomials{
+    padding:40px;
+}
+.testinomials{display: flex;
+    flex-direction:column;
+    padding:50px 30px;
+    }
+
+    .right-content{
+        margin-left: 0%;
+    letter-spacing: 0;}
+    .right-content .para1{
+font-size: 23px;
+text-align: center;
+    }
+    .right-content .para2{
+        font-size: 18px;
+        text-align: justify;
+                }
+
+                .right-content .para3,.para4{
+                    text-align: center;
+                }
+
+.but1{
+   
+
+    margin-left:45%;
+
+}   
+.client-image {
+    margin-left: 30px;
+}
+.lastdabba1 {
+    margin-right: 30px;
+} 
+                  
+}
+
+@media screen and (width>=991px) {
+    
+    .but1{
+  margin-left:45%;
+     }  
+
+}

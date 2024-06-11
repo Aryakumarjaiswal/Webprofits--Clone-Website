@@ -1,0 +1,193 @@
+@media screen and (max-width:479px) {
+.img1{
+ width:130px;
+ height:90px;
+}
+
+.img2
+{
+  width:40px;
+  margin-top: 30px;
+  height: 40px;
+}
+.navchild{
+  padding-top:0px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+ .sharrir{
+   
+    display: inline-flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;   
+    
+ }
+ul{
+  font-size:1.1em;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.socialmedia_logo
+{
+    width:21px;
+    height: 21px;
+}
+
+.handles{
+    margin-bottom:25px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+@media (min-width:479px) and (max-width:991px)
+{
+.img1{
+  width:70%;
+
+}
+.navbar{
+  margin-top: 30px;
+  display: flex;
+
+}
+.navchild {
+  width: 94%;
+/* margin-left: 10px; */
+
+}
+
+li{
+  font-size: 1.2em;
+}
+
+.handles{
+  margin-bottom:25px;
+  width: 35%;}
+
+
+
+}
+@media screen and (width>=991px) {
+  body{
+    height: 100%;
+width:100vw;
+overflow-x: hidden;
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+background-color: black; 
+overflow:visible;
+ }
+
+
+ .container
+ {overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#000000;
+
+ }
+
+ .navbar
+ {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+ }
+
+ .navchild
+ {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #000000;
+    width:80%;
+
+
+ }
+
+ .img1
+ {
+     width:260px; 
+ }
+
+.img2
+{
+   cursor:pointer;}
+
+  
+
+.sharrir
+{
+   display: inline-flex;
+   flex-direction: column;
+   color: aliceblue;
+   justify-content:center;
+   align-items: center;
+   padding-top: 15px;
+}
+
+
+ul
+{
+   display: inline-flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   text-decoration:none;
+
+} 
+
+
+li {  
+position: relative;
+display: inline;
+font-family: 'PT Sans Narrow', sans-serif;
+list-style: none;
+ font-size: 1.3em; 
+letter-spacing:0px;
+padding: 6px 0px;
+cursor: pointer;
+
+
+}
+
+li:hover
+{
+   border-bottom: 1px solid white;
+  
+}
+
+.handles
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    padding-top: 30px;
+    flex-wrap: wrap;
+     width:300px; 
+ }
+ .socialmedia_logo
+ {
+   cursor: pointer;
+    width: 30px;
+    height: 30px;
+ } 
+
+
+
+
+  
+}
+
+
